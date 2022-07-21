@@ -1,0 +1,9 @@
+[submodule "analog-reflector/src"]
+	path = analog-reflector/src
+	url = https://github.com/DVSwitch/Analog_Reflector.git
+[submodule "analog-bridge/src"]
+	path = analog-bridge/src
+	url = https://github.com/DVSwitch/Analog_Bridge.git
+[submodule "mmdvm-bridge/src"]
+	path = mmdvm-bridge/src
+	url = https://github.com/DVSwitch/MMDVM_Bridge.git
