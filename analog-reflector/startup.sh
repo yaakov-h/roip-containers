@@ -10,6 +10,9 @@ echo Starting Analog Reflector...
 ARCHITECTURE=$(arch)
 
 if [ "${ARCHITECTURE}" = "aarch64" ]; then
+    ARCHITECTURE="arm64";
+fi
+if [ "${ARCHITECTURE}" = "x86_64" ]; then
     ARCHITECTURE="amd64";
 fi
 
