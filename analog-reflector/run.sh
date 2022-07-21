@@ -8,4 +8,4 @@ if [ ! -f ${BASEDIR}/example-config/ssl/dvswitch.crt ]; then
     (cd ${BASEDIR}/example-config/ssl && ${BASEDIR}/src/opt/Analog_Reflector/ssl/mkcerts.sh)
 fi
 
-docker run --rm -it --mount type=bind,source=${BASEDIR}/example-config,target=/config,readonly registry.yaakov.online/public/roip/analog-reflector:$COMMIT
+docker run --rm -it --mount type=bind,source=${BASEDIR}/example-config,target=/config,readonly registry.yaakov.online/public/roip-analog-reflector:$COMMIT

@@ -6,12 +6,12 @@ usrpRxPort: 31001
 mobilePort: 12345
 wsPort: 443
 keyDir: /config/ssl/
-siteRoot: /config/arRoot
+siteroot: /config/arRoot
 logFileName: /var/log/dvswitch/Analog_Reflector.log
 logLevel: 2
-disallowUnkownClients: false
+disallowUnknownClients: false
 brokerURL: mqtt://localhost:1883
-rightsMark: 4
+rightsMask: 4
 autoMute: true
 clientDebugMode: false
 clientModes:
