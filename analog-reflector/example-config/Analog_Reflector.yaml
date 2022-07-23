@@ -6,7 +6,7 @@ usrpRxPort: 31001
 mobilePort: 12345
 wsPort: 443
 keyDir: /config/ssl/
-siteroot: /config/arRoot
+siteroot: /config/arRoot/
 logFileName: /var/log/dvswitch/Analog_Reflector.log
 logLevel: 2
 disallowUnknownClients: false

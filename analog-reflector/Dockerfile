@@ -8,14 +8,3 @@ RUN set +x \
 
 COPY startup.sh startup.sh
 COPY src /
-
-# # RUN penssl 
-
-# RUN set +x \
-#  && apk --no-cache update && apk --no-cache upgrade \
-#  && apk --no-cache add tcpdump bash \
-#  && mkdir -p /var/log/dvswitch
-# COPY /Analog_Reflector/opt/Analog_Reflector /app
-# COPY startup /startup
-
-# CMD /startup
