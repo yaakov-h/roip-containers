@@ -7,3 +7,6 @@
 [submodule "mmdvm-bridge/src"]
 	path = mmdvm-bridge/src
 	url = https://github.com/DVSwitch/MMDVM_Bridge.git
+[submodule "md380emulator/src"]
+	path = md380emulator/src
+	url = https://github.com/DVSwitch/md380tools
