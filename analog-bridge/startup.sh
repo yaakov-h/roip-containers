@@ -4,7 +4,11 @@ set +x
 CONFIG_PATH=${CONFIG_PATH:-/config/Analog_Bridge.ini}
 
 echo Transforming configuration file...
-mkdir /opt/Analog_Bridge
+
+if [ ! -d /opt/Analog_Bridge ]; then
+    mkdir /opt/Analog_Bridge
+fi
+
 cat $CONFIG_PATH | envsubst > /opt/Analog_Bridge/Analog_Bridge.ini
 
 echo Starting Analog Bridge...
